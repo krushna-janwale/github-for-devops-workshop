@@ -1,0 +1,22 @@
+git config --global user.mail "...
+git config --global user.name "...
+git commit                        
+git status                        
+rm test.py                        
+git add testing.py                
+git commit -m "added testing.py"  
+git rm testing.py                 
+git status                        
+git restore testing.py            
+git commit                        
+git status                        
+git restore test.py 
+
+git remote add origin https://github.com/krushna-...
+git remote -v                                       
+git remote set-url https://ghp_Da6aX94Pr9pHzz9hza...
+git push master origin                              
+git remote set-url--add https://ghp_Da6aX94Pr9pHz...
+git remote set-url --add https://ghp_Da6aX94Pr9pH...
+git branch -M main                                  
+git push -u origin main
